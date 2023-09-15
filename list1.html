@@ -1,0 +1,98 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/list1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="icon" type="image/x-icon" href="images/logo.png">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg text-uppercase fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <span class="h3 fw-bold"><i class="fa-solid fa-crown text-warning"></i>CRK<i
+                class="fa-solid fa-dumbbell text-dark"></i></span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+              <i class="fa-solid fa-bars"></i>
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto text-center">
+              <li class="nav-item"><a class="nav-link px-lg-3" href="index2.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link px-lg-3" href="canvas.html">Activity1</a></li>
+              <li class="nav-item"><a class="nav-link px-lg-3" href="#activity">Activity2</a></li>
+            
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <h2 style="background-color:skyblue;
+           text-align:center;
+           color:black;">3 Types of lists</h2>
+    <h2>Lists</h2>
+    <p>Humans are natural list makers, and HTML provides elements for making up three types of lists:</p>
+    <ol>
+        <li>Unordered lists. Collection of items that appear in no particular order</li>
+        <li>Ordered lists. List in which the sequence of the items is important</li>
+        <li>Description lists. List that consist of name and value pairs, including but not limited to terms and definition</li>
+    </ol>
+    <h2>Unordered Lists</h2>
+    <p>Identify an unordered list , mark it up as a  < ul > element. The opening tag goes before the first list items, and closing tag < /ul> goes after the last item. Then, each item in the list gets marked up as a list item (li) by enclosing it in opening and closing li tags, as shown
+        in this example. Notice that there are no bullets in the source document. They are added automatically by the browser. For example:
+      </p>
+      <ul><li>Fruits</li>
+        <ul style="list-style-type: disc;">
+            <li>Mango</ii>
+            <li>Apple</li>
+            <li>Pineapple</li>
+        
+        </ul>
+        <li>Vegetables</li>
+        <ul style="list-style-type: disc;">
+            <li>Cabbage</li>
+            <li>Lettuce</li>
+            <li>Carrot</li>
+            
+            </ul>
+    </ul>
+       
+       
+       
+      <h2>Ordered Lists</h2>
+      <p>Ordered lists are for items that occur in a particular order, such as step by step instructions or 
+        driving directions. They work just like the inordered list described earlier, except they are defined 
+        with the ol element (for ordered list, ofcourse). Instead of bullets, the browser automatically inserts
+         number  before ordered list items, so you dont need to number them in the source document. This make 
+         it easy to rearrange list items without renumbering them. For example</p>
+         <p>After reading this INFORMATION,YOU MUST be able to:</p>
+         <ol>
+            <li>Demonstrate entering contents</li>
+            <li>Identify the steps of marking up a simple web page</li>
+            <li>Use text editors</li>
+         </ol>
+         <h2>Description Lists</h2>
+         <p>Description lists are used for any type of name / value pairs, such as terms and their definition, 
+            questions and answers, or other types of terms and their associated information. Their structure is a bit 
+            different from the other two lists that we just discussed. The whole description list is marked up as a <b>dl</b> 
+            element. The content of a <b>dl</b> is some number of <b>dt</b> elements indicating the names and <b>dd</b> elements for their respective values.
+        I find it helpful to think of them as "terms" (to remember the "t" in <b>dt</b>) and "definition(for the "d" in <b>dd</b>), 
+    even though that is only one use of description list in HTML5. For example:</p>
+    <dl>
+        <a style="text-decoration:none"  href="#"><dt><u>beginPath</u>().</a></dt>
+       <dd>Creates a new path. Once created, future drawing command are directed in to the path and used to build the path up.</dd>
+       <a style="text-decoration:none"  href="#"><dt><u>Patch methods</u>().</a></dt>
+       <dd>Methods to set different paths for objects</dd>
+       <a style="text-decoration:none"  href="#"><dt><u>closePath</u>().</a></dt>
+       <dd>Adds a straight line to the path, going to the current sub-path.</dd>
+    </dl>
+</body>
+</html>

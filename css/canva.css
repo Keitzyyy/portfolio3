@@ -1,0 +1,28 @@
+html, body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    background: linear-gradient(90deg, rgba(103,174,202,0.45) 20%, rgba(103,86,130,0.45) 85%);
+}
+.h1, .h2, .h3, .h4, .h5, .h6{
+    color: rgb(204, 204, 204);
+    font-weight: 700;
+}
+.navbar {
+    background: rgb(103,174,202);
+    background: linear-gradient(90deg, rgba(103,174,202,0.45) 20%, rgba(103,86,130,0.45) 85%), url(../images/home\ \(1\).jpg   );
+}
+.navbar .nav-link {
+    font-size: 17px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    color: rgb(204, 204, 204);
+}
+.navbar .nav-link:hover {
+    color: rgb(252, 141, 141);
+}
+.navbar .nav-link.active {
+    color: rgb(252, 141, 141);
+}
+.navbar-toggler{
+    color: rgb(204, 204, 204);
+}
